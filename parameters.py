@@ -13,7 +13,8 @@ OUT_PATH = 'outputs'
 '''
 Parameters about the classes of the data
 '''
-CLASSES = ["car", "truck"]
+CLASSES = ['shared-taxi', 'truck-5-axle', 'auto', 'mav', 'private-bus', 'taxi', 'cycle', 'truck-4-axle', 'mini-lcv', 'lcv',
+           'goods-auto', 'heavy-vehicle', 'govt-bus', 'BIKE', 'truck-3-axle', 'school-bus', 'tractor', 'two-wheeler', 'mini-bus', 'pedestrian', 'car', 'truck-2-axle']
 NUM_CLASSES = len(CLASSES)
 
 '''
