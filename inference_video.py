@@ -13,7 +13,7 @@ np.random.seed(42)
 parser = argparse.ArgumentParser()
 parser.add_argument(
     '-i', '--input', help='path to input video',
-    default='data/testing2.mp4'
+    default='data/testing.mp4'
 )
 parser.add_argument(
     '--imgsz',
